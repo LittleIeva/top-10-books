@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Mainits prieksh 6.semestra darba Interneta mekleshana -->
+<head>
+    <title>5 Books You Must Read!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="books.css">
+    <script src="books.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="icon" href="books.png" type="image/gif" sizes="16x16">
+</head>
+
+<body>
+    <script>
+    $(document).ready(function()
+    {
+        $("#Picture").click(function()
+        {
+          $("#Gatsby").fadeToggle();
+          $("#Moby").fadeToggle();
+          $("#Hamlet").fadeToggle();
+          $("#War").fadeToggle();
+          $("#Karamazov").fadeToggle();
+        });
+    });
+    </script>
+    <nav id="main-menu" class="menu">
+        <ul class="parent-menu">
+            <li class="upper-menu"><a href="#intro">Introduction</a></li>
+            <li class="upper-menu">Books
+                <ul class="sub-menu">
+                    <li><a href="#Book1">Factfulness</a></li>
+                    <li><a href="#Book2">The Power of Habit</a></li>
+                    <li><a href="#Book3">The 7 Habits of Highly Effective People</a></li>
+                    <li><a href="#Book4">The Lean Startup</a></li>
+                    <li><a href="#Book5">Thinking, Fast and Slow</a></li>
+                </ul>
+            </li>
+            <li class="upper-menu">Other Books
+                <ul class="sub-menu">
+                    <li><a href="https://www.goodreads.com/book/show/7144.Crime_and_Punishment?ac=1&from_search=true" target="_blank">Crime and Punishment</a></li>
+                    <li><a href="https://www.goodreads.com/book/show/13023.Alice_in_Wonderland?ac=1&from_search=true" target="_blank">Alice's Adventures in Wonderland</a></li>
+                    <li><a href="https://www.goodreads.com/book/show/1885.Pride_and_Prejudice?ac=1&from_search=true" target="_blank">Pride and Prejudice</a></li>
+                    <li><a href="https://www.goodreads.com/book/show/40961427-1984?ac=1&from_search=true" target="_blank">Nineteen Eighty Four</a></li>
+                    <li><a href="https://www.goodreads.com/book/show/17690.The_Trial?ac=1&from_search=true" target="_blank">The Trial</a></li>
+                </ul>
+            </li>
+            <li class="upper-menu">Related Websites
+                <ul class="sub-menu">
+                    <li><a href="https://thegreatestbooks.org/" target="_blank">The Greatest Books</a></li>
+                    <li><a href="https://openlibrary.org/" target="_blank">Open Library</a></li>
+                    <li><a href="https://www.goodreads.com/" target="_blank">GoodReads</a></li>
+                    <li><a href="https://www.bookfinder.com/" target="_blank">The Book Finder</a></li>
+                </ul>
+            </li>
+            <li class="upper-menu"><a href="https://best-books.publishersweekly.com/pw/best-books/2018/top-10#book/book-1" target="_blank">Top Books of 2018</a></li>
+            <li class="upper-menu"><a href="#ch">Afterword</a></li>
+        </ul>
+    </nav>
+    <div class="main-content">
+        <div class="intro" itemscope itemtype="https://schema.org/Book">
+            <h1 id="intro">Hello, user!</h1>
+            <p class="leading">
+                I am really glad you decided to join us in this beautiful adventure of finding the best books ever written! Here you will find 10 books you should read in your lifetime according to me. The list is short - only 10 books! But believe me there is more information
+                than you expect there to be. I wish you to find YOUR book and wonderful reading. Enjoy! Books you will find here are:
+            </p>
+            <ol>
+                <li itemprop="name">Factfulness</li>
+                <li itemprop="name">The Power of Habit</li>
+                <li itemprop="name">The 7 Habits of Highly Effective People</li>
+                <li itemprop="name">The Lean Startup</li>
+                <li itemprop="name">Thinking, Fast and Slow</li>
+                <li itemprop="name">Crime and Punishment</li>
+                <li itemprop="name">Alice's Adventures in Wonderland</li>
+                <li itemprop="name">Pride and Prejudice</li>
+                <li itemprop="name">Nineteen Eighty Four</li>
+                <li itemprop="name">The Trial</li>
+            </ol>
+            <p>Would you like the pictures to be hidden?</p>
+            <button id="Picture" onclick="HidePictures()">Yes, please!</button>
+        </div>
+
+        <div class="about" itemscope itemtype="https://schema.org/Book">
+            <h2 id="Book1"><span itemprop="name">Factfulness: Ten Reasons We're Wrong About the World</span> by <span itemprop="author" itemtype="https://schema.org/Person" itemscope="" itemprop="name">F. Hans Rosling</span></h2>
+            <div class="container" >
+                <img class="picture" id="Factfulness" src="factfulness.jfif" alt="Factfulness Cover" itemprop="image">
+                <h3>About</h3>
+                <p>
+					<strong>ISBN:</strong> <span itemprop="isbn">978-1-250-10781-7</span><br>
+					<strong>Number of pages:</strong> <span itemprop="numberOfPages">341</span><br>
+					<strong>Publishing date:</strong> <span itemprop="datePublished">April 3, 2018</span><br>
+					<strong>Genre:</strong> <span itemprop="genre">Non-fiction</span><br>
+					<strong>Language:</strong> <span itemprop="inLanguage" content="en">English</span><br>
+					<strong>Publisher:</strong> <span itemprop="publisher" itemtype="https://schema.org/Organization" itemscope="" itemprop="name">Flatiron Books</span><br>
+					<strong>Keywords:</strong> <span itemprop="keywords">finance, income, facts, knowledge</span><br>
+					<strong>Awards:</strong> <span itemprop="award">Goodreads Choice Awards Best Nonfiction</span><br>
+					<span itemprop="sameAs" content="https://en.wikipedia.org/wiki/Factfulness:_Ten_Reasons_We%27re_Wrong_About_the_World_%E2%80%93_and_Why_Things_Are_Better_Than_You_Think"></span>
+                    <b itemprop="name">Factfulness: Ten Reasons We're Wrong About the World</b> – <span itemprop="about">and Why Things Are Better Than You Think is a 2018 book by Swedish statistician Hans Rosling with his son Ola Rosling and daughter-in-law Anna Rosling Rönnlund. 
+					In the book, Rosling suggests that the vast majority of people are wrong about the state of the world. He demonstrates that his test subjects believe the world is poorer, less healthy, 
+					and more dangerous than it actually is, attributing this not to random chance but to misinformation.</span>
+                </p>
+            </div>
+            <h4>Blur</h4>
+            <p>
+                <span itemprop="abstract">In Factfulness, Professor of International Health and a man who can make data sing, Hans Rosling, together with his two long-time collaborators Anna and Ola, 
+				offers a radical new explanation of why this happens, and reveals the ten instincts that distort our perspective.</span>
+            </p>
+        </div>
+
+        <div class="about" itemscope itemtype="https://schema.org/Book">
+            <h2 id="Book2"><span itemprop="name">The Power of Habit: Why We Do What We Do in Life and Business</span> by <span itemprop="author" itemtype="https://schema.org/Person" itemscope="" itemprop="name">Charles Duhigg</span></h2>
+            <div class="container" >
+                <img class="picture" id="Factfulness" src="habit.jfif" alt="The Power of Habit Cover" itemprop="image">
+                <h3>About</h3>
+                <p>
+					<strong>ISBN:</strong> <span itemprop="isbn">9781400069286</span><br>
+					<strong>Number of pages:</strong> <span itemprop="numberOfPages">371</span><br>
+					<strong>Publishing date:</strong> <span itemprop="datePublished">February 28, 2012</span><br>
+					<strong>Genre:</strong> <span itemprop="genre">Self-help</span><br>
+					<strong>Language:</strong> <span itemprop="inLanguage" content="en">English</span><br>
+					<strong>Publisher:</strong> <span itemprop="publisher" itemtype="https://schema.org/Organization" itemscope="" itemprop="name">Random House Trade Paperbacks</span><br>
+					<strong>Keywords:</strong> <span itemprop="keywords">habit, everyday, work</span><br>
+					<strong>Awards:</strong> <span itemprop="award">Goodreads Choice Awards Best Nonfiction</span><br>
+					<span itemprop="sameAs" content="https://charlesduhigg.com/the-power-of-habit/"></span>
+                    <b itemprop="name">The Power of Habit: Why We Do What We Do in Life and Business</b> – <span itemprop="about">is a book by Charles Duhigg, a New York Times reporter, published in February 2012 by Random House. 
+					It explores the science behind habit creation and reformation. The book reached the best seller list for The New York Times, 
+					Amazon.com, and USA Today.It was long listed for the <span itemprop="award">Financial Times and McKinsey Business Book of the Year Award</span> in 2012.</span>
+                </p>
+            </div>
+            <h4>Blur</h4>
+            <p>
+                <span itemprop="abstract">In The Power of Habit, award-winning New York Times business reporter Charles Duhigg takes us to the thrilling 
+				edge of scientific discoveries that explain why habits exist and how they can be changed. 
+				With penetrating intelligence and an ability to distill vast amounts of information into engrossing narratives, 
+				Duhigg brings to life a whole new understanding of human nature and its potential for transformation.</span>
+            </p>
+        </div>
+
+        <div class="about" itemscope itemtype="https://schema.org/Book">
+            <h2 id="Book3"><span itemprop="name">The 7 Habits of Highly Effective People</span> by <span itemprop="author" itemtype="https://schema.org/Person" itemscope="" itemprop="name">Stephen R. Covey</span></h2>
+            <div class="container" >
+                <img class="picture" id="Factfulness" src="7habits.jfif" alt="The 7 Habits of Highly Effective People Cover" itemprop="image">
+                <h3>About</h3>
+                <p>
+					<strong>ISBN:</strong> <span itemprop="isbn">0-7432-6951-9</span><br>
+					<strong>Number of pages:</strong> <span itemprop="numberOfPages">381</span><br>
+					<strong>Publishing date:</strong> <span itemprop="datePublished">August 15, 1989</span><br>
+					<strong>Genre:</strong> <span itemprop="genre">Self-help</span><br>
+					<strong>Language:</strong> <span itemprop="inLanguage" content="en">English</span><br>
+					<strong>Publisher:</strong> <span itemprop="publisher" itemtype="https://schema.org/Organization" itemscope="" itemprop="name">Free Press</span><br>
+					<strong>Keywords:</strong> <span itemprop="keywords">habit, everyday, work, finance, goals</span><br>
+					<strong>Awards:</strong> <span itemprop="award">Goodreads Choice Awards Best Nonfiction</span><br>
+					<span itemprop="sameAs" content="https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People"></span>
+                    <b itemprop="name">The 7 Habits of Highly Effective People</b> – <span itemprop="about">first published in 1989, is a business and self-help book written by Stephen R. Covey.
+					Covey presents an approach to being effective in attaining goals by aligning oneself to what he calls "true north" principles 
+					based on a character ethic that he presents as universal and timeless.</span>
+                </p>
+            </div>
+            <h4>Blur</h4>
+            <p>
+                <span itemprop="abstract">When Stephen Covey first released The Seven Habits of Highly Effective People, 
+				the book became an instant rage because people suddenly got up and took notice that their lives were headed 
+				off in the wrong direction; and more than that, they realized that there were so many simple things they 
+				ould do in order to navigate their life correctly. This book was wonderful education for people, education 
+				in how to live life effectively and get closer to the ideal of being a ‘success’ in life.</span>
+            </p>
+        </div>
+
+        <div class="about" itemscope itemtype="https://schema.org/Book">
+            <h2 id="Book4"><span itemprop="name">The Lean Startup</span> by <span itemprop="author" itemtype="https://schema.org/Person" itemscope="" itemprop="name">Eric Ries</span></h2>
+            <div class="container" >
+                <img class="picture" id="Factfulness" src="startup.jfif" alt="The Lean Startup Cover" itemprop="image">
+                <h3>About</h3>
+                <p>
+					<strong>ISBN:</strong> <span itemprop="isbn">0307887898</span><br>
+					<strong>Number of pages:</strong> <span itemprop="numberOfPages">336</span><br>
+					<strong>Publishing date:</strong> <span itemprop="datePublished">2011</span><br>
+					<strong>Genre:</strong> <span itemprop="genre">Entrepreneurship</span><br>
+					<strong>Language:</strong> <span itemprop="inLanguage" content="en">English</span><br>
+					<strong>Publisher:</strong> <span itemprop="publisher" itemtype="https://schema.org/Organization" itemscope="" itemprop="name">Crown Business</span><br>
+					<strong>Keywords:</strong> <span itemprop="keywords">finance, goals, startup</span><br>
+					<span itemprop="sameAs" content="http://theleanstartup.com/"></span>
+                    <b itemprop="name">The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses</b> – <span itemprop="about">is a book by Eric Ries describing his proposed lean 
+					startup strategy for startup companies.</span>
+                </p>
+            </div>
+            <h4>Blur</h4>
+            <p>
+                <span itemprop="abstract">Eric Ries defines a startup as an organization dedicated to creating something new under 
+				conditions of extreme uncertainty. This is just as true for one person in a garage or a group of seasoned professionals 
+				in a Fortune 500 boardroom. What they have in common is a mission to penetrate that fog of uncertainty to discover a 
+				successful path to a sustainable business.</span>
+            </p>
+        </div>
+
+        <div class="about" itemscope itemtype="https://schema.org/Book">
+            <h2 id="Book5"><span itemprop="name">Thinking, Fast and Slow</span> by <span itemprop="author" itemtype="https://schema.org/Person" itemscope="" itemprop="name">Daniel Kahneman</span></h2>
+            <div class="container" >
+                <img class="picture" id="Factfulness" src="thinking.jfif" alt="Thinking, Fast and Slow Cover" itemprop="image">
+                <h3>About</h3>
+                <p>
+					<strong>ISBN:</strong> <span itemprop="isbn">978-0374275631</span><br>
+					<strong>Number of pages:</strong> <span itemprop="numberOfPages">499</span><br>
+					<strong>Publishing date:</strong> <span itemprop="datePublished">October 25, 2011</span><br>
+					<strong>Genre:</strong> <span itemprop="genre">Non-fiction</span><br>
+					<strong>Language:</strong> <span itemprop="inLanguage" content="en">English</span><br>
+					<strong>Publisher:</strong> <span itemprop="publisher" itemtype="https://schema.org/Organization" itemscope="" itemprop="name">Farrar, Straus and Giroux</span><br>
+					<strong>Keywords:</strong> <span itemprop="keywords">psychology, thinking, person</span><br>
+					<span itemprop="sameAs" content="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow"></span>
+                    <b itemprop="name">Thinking, Fast and Slow</b> – <span itemprop="about">is a best-selling book published in 2011 by Nobel Memorial Prize in 
+					Economic Sciences laureate Daniel Kahneman. It was the 2012 winner of the National Academies Communication Award for 
+					best creative work that helps the public understanding of topics in behavioral science, engineering and medicine</span>
+                </p>
+            </div>
+            <h4>Blur</h4>
+            <p>
+                <span itemprop="abstract">Engaging the reader in a lively conversation about how we think, Kahneman reveals where 
+				we can and cannot trust our intuitions and how we can tap into the benefits of slow thinking. 
+				He offers practical and enlightening insights into how choices are made in both our business and our 
+				personal lives—and how we can use different techniques to guard against the mental glitches that often 
+				get us into trouble. Thinking, Fast and Slow will transform the way you think about thinking</span>
+            </p>
+        </div>
+        <p class="leading">
+            Hey! This is the end of the page. I worked really hard on it, so I would like to get some feedback from YOU! Just fill in the form. Thank you for visiting! :) Cookie for you.<br><br>Would you like to fill the form?
+        </p>
+        <div class="form">
+            <div class="choice" id="ch">
+                <button onclick="ShowForm()">Yes!</button>
+
+                <button onclick="ShowText()">No,thank you!</button>
+            </div>
+            <div id="forma">
+                <form id="interactive" action="http://naivist.net/form" method="post" onsubmit="return ValidateForm()">
+                    <p>For 1 to 10, how would you rate this page?</p>
+                    <br>
+                    <input type="text" name="mark" id="form1" required>
+                    <br>
+                    <p>Would you visit again for updates?</p>
+                    <br>
+                    <select name="visit" id="form2">
+                    <option value="" label=" "></option>
+                    <option value="y">Yes</option>
+                    <option value="n">No</option>
+                    <option value="k">I don't know</option>
+            </select>
+                    <br>
+                    <p>What is your favourite book so far? (max 20 symbols)</p>
+                    <br>
+                    <input type="text" name="fav" id="form3" required>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div id="teksts">
+                <p id="thanks">Thank you anyway!</p>
+				<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
