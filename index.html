@@ -11,20 +11,35 @@
     <link rel="icon" href="books.png" type="image/gif" sizes="16x16">
     <script type="application/ld+json">
         {
-            "@context": "https://schema.org/",
-            "@type": "Book",
-            "name": "Factfulness: Ten Reasons We're Wrong About the World",
-            "author": "F. Hans Rosling",
-            "datePublished": "2018-04-03",
-            "image": "/top-10-books/factfulness.jfif",
-            "isbn": "9781250107817",
-            "inLanguage": "en",
-            "publisher": "Flatiron Books",
-            "keywords": ["finance", "income", "facts", "knowledge"],
-            "sameAs": "https://en.wikipedia.org/wiki/Factfulness:_Ten_Reasons_We%27re_Wrong_About_the_World_%E2%80%93_and_Why_Things_Are_Better_Than_You_Think",
-            "description": "Factfulness: Ten Reasons We're Wrong About the World is a 2018 book by Swedish statistician Hans Rosling with his son Ola Rosling and daughter-in-law Anna Rosling Rönnlund. 
-            In the book, Rosling suggests that the vast majority of people are wrong about the state of the world. He demonstrates that his test subjects believe the world is poorer, less healthy, 
-            and more dangerous than it actually is, attributing this not to random chance but to misinformation."
+            "@context": "http://schema.org",
+            "@type": "DataFeed",
+            "dataFeedElement": [
+              {
+                "@context": "http://schema.org",
+                "@type": "Book",
+                "@id": "http://example.com/work/the_catcher_in_the_rye",
+                "url": "http://example.com/work/the_catcher_in_the_rye",
+                "name": "The Catcher in the Rye",
+                "author": {
+                  "@type": "Person",
+                  "name": "J.D. Salinger"
+                },
+                "sameAs": "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye",
+                "workExample": [
+                  {
+                    "@type": "Book",
+                    "@id": "http://example.com/edition/the_catcher_in_the_rye_paperback",
+                    "isbn": "9787543321724",
+                    "bookEdition": "Mass Market Paperback",
+                    "bookFormat": "http://schema.org/Paperback",
+                    "inLanguage": "en",
+                    ...
+                  },
+                  ...
+                ]
+             }
+            ],
+            "dateModified": "2018-09-10T13:58:26.892Z"
         }
     </script>
 </head>
