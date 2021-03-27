@@ -10,31 +10,34 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="icon" href="./books.png" type="image/gif" sizes="16x16">
     <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "DataFeed",
-            "dataFeedElement": [
-              {
-                "@context": "http://schema.org",
-                "@type": "Book",
-                "name": "The Catcher in the Rye",
-                "author": {
-                  "@type": "Person",
-                  "name": "J.D. Salinger"
-                },
-                "sameAs": "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye",
-                "workExample": [
-                  {
-                    "@type": "Book",
-                    "isbn": "9787543321724",
-                    "bookEdition": "Mass Market Paperback",
-                    "bookFormat": "http://schema.org/Paperback",
-                    "inLanguage": "en"
+    {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "breadcrumb": "Books > Marketing > JSON",
+          "mainEntity":{
+                  "@type": "Book",
+                  "author": "F. Hans Rosling",
+                  "bookFormat": "http://schema.org/Paperback",
+                  "datePublished": "2018-04-03",
+                  "image": "factfulness.jfif",
+                  "inLanguage": "English",
+                  "isbn": "9781250107817",
+                  "name": "Factfulness: Ten Reasons We're Wrong About the World",
+                  "numberOfPages": "341",
+                  "offers": {
+                    "@type": "Offer",
+                    "availability": "http://schema.org/InStock",
+                    "price": "16.99",
+                    "priceCurrency": "USD"
+                  },
+                  "publisher": "Flatiron Books",
+                  "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.9",
+                    "reviewCount": "12"
                   }
-                ]
-             }
-            ]
-          }
+                }
+        }
     </script>
 </head>
 
@@ -114,7 +117,8 @@
                 <img class="picture" id="Factfulness" src="factfulness.jfif" alt="Factfulness Cover">
                 <h3>About</h3>
                 <p>
-					<strong>ISBN:</strong> <span>978-1-250-10781-7</span><br>
+					<strong>Price:</strong> <span>16.99</span><br>
+                    <strong>ISBN:</strong> <span>978-1-250-10781-7</span><br>
 					<strong>Number of pages:</strong> <span>341</span><br>
 					<strong>Publishing date:</strong> <span>April 3, 2018</span><br>
 					<strong>Genre:</strong> <span>Non-fiction</span><br>
