@@ -16,7 +16,10 @@
           "breadcrumb": "Books > Marketing > JSON",
           "mainEntity":{
                   "@type": "Book",
-                  "author": "F. Hans Rosling",
+                  "author": {
+                    "@type": "Person",
+                    "name": "F. Hans Rosling"
+                  },
                   "bookFormat": "http://schema.org/Paperback",
                   "datePublished": "2018-04-03",
                   "image": "factfulness.jfif",
@@ -25,7 +28,7 @@
                   "name": "Factfulness: Ten Reasons We're Wrong About the World",
                   "numberOfPages": "341",
                   "offers": {
-                    "@type": "Offer",
+                    "@type": "Product",
                     "availability": "http://schema.org/InStock",
                     "price": "16.99",
                     "priceCurrency": "USD"
