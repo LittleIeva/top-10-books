@@ -10,13 +10,41 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="icon" href="./books.png" type="image/gif" sizes="16x16">
     <script type="application/ld+json">
-        "workExample":
         {
-          "@type": "Book",
-          "inLanguage": "en",
-          "isbn": "9781250107817",
-          "bookEdition": "2nd Edition",
-          "bookFormat": "http://schema.org/Hardcover"
+        "@context": "http://schema.org",
+        "@type": "DataFeed",
+        "dataFeedElement": [
+              {
+                "@context": "http://schema.org",
+                "@type": "Book",
+                "name": "The Catcher in the Rye",
+                "author": {
+                  "@type": "Person",
+                  "name": "J.D. Salinger"
+                },
+                "isbn": "9787543321724",
+                "bookEdition": "Mass Market Paperback",
+                "bookFormat": "http://schema.org/Paperback",
+                "inLanguage": "en",
+                "sameAs": "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye",
+             }
+            ],
+        "dataFeedElement": [
+            {
+              "@context": "http://schema.org",
+              "@type": "Book",
+              "name": "Book2",
+              "author": {
+                "@type": "Person",
+                "name": "J.D. Salinger"
+              },
+              "isbn": "9787543321724",
+              "bookEdition": "Mass Market Paperback",
+              "bookFormat": "http://schema.org/Paperback",
+              "inLanguage": "en",
+              "sameAs": "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye",
+           }
+          ]
         }
     </script>
 </head>
